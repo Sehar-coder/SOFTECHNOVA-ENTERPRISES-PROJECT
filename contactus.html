@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | EduPro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .hero-section {
+      background: linear-gradient(90deg, #002D5B, #006E6D);
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
+    .info-box {
+      border: 1px solid #e5e5e5;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      background: #f8f9fa;
+    }
+    .form-section, .faq-section {
+      padding: 60px 0;
+    }
+    .faq-box {
+      border: 1px solid #e5e5e5;
+      border-radius: 8px;
+      padding: 20px;
+      background-color: white;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #0f172a;
+      color: #fff;
+      padding: 40px 0;
+    }
+    footer a {
+      color: #ccc;
+      text-decoration: none;
+    }
+    .footer-bottom {
+      border-top: 1px solid #334155;
+      padding-top: 20px;
+      text-align: center;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">EduPro</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contactus.html">Contact</a></li>
+        </ul>
+        <form class="d-flex me-2">
+          <input class="form-control me-2" type="search" placeholder="Search courses...">
+        </form>
+        <a href="login.html" class="btn btn-outline-dark me-2">Sign In</a>
+        <a href="signup.html" class="btn btn-success">Sign Up</a>
+      </div>
+    </div>
+  </nav>
+
+<!-- Hero Section -->
+<div class="hero-section">
+  <h1>Contact Us</h1>
+  <p>Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+</div>
+
+<!-- Contact Info Boxes -->
+<div class="container text-center mt-5">
+  <div class="row g-4">
+    <div class="col-md-3">
+      <div class="info-box">
+        <div class="mb-2">📧</div>
+        <h6>Email Us</h6>
+        <p>info@edupro.com</p>
+        <small>Send us an email anytime</small>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="info-box">
+        <div class="mb-2">📞</div>
+        <h6>Call Us</h6>
+        <p>+1 (555) 123-4567</p>
+        <small>Mon-Fri from 8am to 6pm</small>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="info-box">
+        <div class="mb-2">📍</div>
+        <h6>Visit Us</h6>
+        <p>123 Education St, New York, NY 10001</p>
+        <small>Come say hello at our office</small>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="info-box">
+        <div class="mb-2">⏰</div>
+        <h6>Business Hours</h6>
+        <p>Mon-Fri: 8am–6pm EST</p>
+        <small>We're here to help during business hours</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Form and Map -->
+<div class="container form-section">
+  <div class="row g-4">
+    <div class="col-md-7">
+      <div class="p-4 border rounded">
+        <h5>Send us a Message</h5>
+        <form>
+          <div class="mb-3">
+            <label>Full Name</label>
+            <input type="text" class="form-control" placeholder="Your full name">
+          </div>
+          <div class="mb-3">
+            <label>Email Address</label>
+            <input type="email" class="form-control" placeholder="your.email@example.com">
+          </div>
+          <div class="mb-3">
+            <label>Subject</label>
+            <select class="form-select">
+              <option selected disabled>Select a subject</option>
+              <option>General Inquiry</option>
+              <option>Technical Support</option>
+              <option>Billing Issue</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label>Message</label>
+            <textarea class="form-control" rows="4" placeholder="Tell us how we can help you..."></textarea>
+          </div>
+          <button class="btn btn-success w-100">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="p-4 border rounded bg-light">
+        <h6>Visit Our Office</h6>
+        <div class="mb-3 text-center p-4 bg-secondary text-white rounded">Interactive Map Placeholder</div>
+        <p><strong>Address:</strong> 123 Education Street, New York, NY 10001</p>
+        <p><strong>Hours:</strong> Monday – Friday, 8:00 AM – 6:00 PM EST</p>
+        <p><strong>Parking:</strong> Free parking available in our building garage</p>
+      </div>
+      <div class="mt-4 p-4 border rounded">
+        <h6>Quick Response</h6>
+        <p>We typically respond to all inquiries within 24 hours during business days. For urgent matters, please call us directly.</p>
+        <ul class="list-unstyled">
+          <li><strong>General Inquiries:</strong> 1–2 business days</li>
+          <li><strong>Technical Support:</strong> Same day</li>
+          <li><strong>Billing Issues:</strong> Same day</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FAQ Section -->
+<div class="container faq-section">
+  <h3 class="text-center mb-4">Frequently Asked Questions</h3>
+  <p class="text-center mb-5">Find quick answers to common questions</p>
+  <div class="faq-box">
+    <h6>How do I enroll in a course?</h6>
+    <p>Simply browse our courses, click on the one you're interested in, and click 'Enroll Now'. You'll be guided through the payment process.</p>
+  </div>
+  <div class="faq-box">
+    <h6>Do you offer certificates?</h6>
+    <p>Yes! All our courses come with a certificate of completion that you can add to your LinkedIn profile or resume.</p>
+  </div>
+  <div class="faq-box">
+    <h6>Can I get a refund?</h6>
+    <p>We offer a 30-day money-back guarantee on all courses. If you're not satisfied, contact us for a full refund.</p>
+  </div>
+  <div class="faq-box">
+    <h6>Are courses self-paced?</h6>
+    <p>Yes, all our courses are self-paced. You can learn at your own speed and access materials anytime.</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h6>EduPro</h6>
+        <p>Empowering professionals worldwide with industry-leading courses and expert instruction.</p>
+        <div>
+          <a href="#">Facebook</a> · <a href="#">Twitter</a> · <a href="#">LinkedIn</a> · <a href="#">Instagram</a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h6>Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">All Courses</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6>Support</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6>Contact Info</h6>
+        <p><strong>Email:</strong> info@edupro.com</p>
+        <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+        <p><strong>Location:</strong> New York, NY 10001</p>
+      </div>
+    </div>
+    <div class="footer-bottom mt-4">
+      <p>&copy; 2024 EduPro. All rights reserved. | <a href="#">Privacy</a> · <a href="#">Terms</a> · <a href="#">Cookies</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
